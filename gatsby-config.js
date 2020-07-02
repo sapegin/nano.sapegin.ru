@@ -98,12 +98,5 @@ module.exports = {
 				siteUrl: siteMetadata.siteUrl,
 			},
 		},
-		{
-			resolve: 'gatsby-plugin-fathom',
-			options: {
-				trackingUrl: 'stats.sapegin.me',
-				siteId: { en: 'JQWYF', ru: 'SOOAQ' }[lang],
-			},
-		},
 	],
 };
