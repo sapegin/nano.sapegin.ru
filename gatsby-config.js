@@ -98,5 +98,12 @@ module.exports = {
 				siteUrl: siteMetadata.siteUrl,
 			},
 		},
+		{
+			resolve: 'gatsby-plugin-goatcounter',
+			options: {
+				code: 'sapegin-nano',
+				allowLocal: false,
+			},
+		},
 	],
 };
